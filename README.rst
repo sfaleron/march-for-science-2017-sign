@@ -39,6 +39,6 @@ attach with double sticky tape, thumbtacks, or whatever floats your boat.
 final note
 ==========
 
-I intend to make an unnessecarily elaborate mounting system just for kicks, but you can also hold overhead, or it at chest height, flipping every once in a while to expose both sides.
+I intend to make an unnecessarily elaborate mounting system just for kicks, but you can also hold overhead, or it at chest height, flipping every once in a while to expose both sides.
 
 Perhaps not in time for the intended event. It's easily updatable for future uses, though!
