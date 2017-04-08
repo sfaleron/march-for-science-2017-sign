@@ -44,7 +44,7 @@ TMPLS = {
       '',
       'pdftk tmp/tile14.pdf tmp/tile25.pdf tmp/tile34.pdf tmp/tile44.pdf cat output output/${name}.pdf',
       'pdfnup --nup 2x2 --outfile tmp/${name}2.pdf tmp/tile11.pdf tmp/tile22.pdf tmp/tile31.pdf tmp/tile41.pdf',
-      'convert tmp/${name}2.pdf -geometry 440x340 output/${name}.png',
+      'convert tmp/${name}2.pdf -background white -alpha remove -geometry 440x340 output/${name}.png',
       'zip -n .png output/sign.zip output/${name}.pdf output/${name}.png',
    ) ],
 
