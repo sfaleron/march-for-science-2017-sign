@@ -2,7 +2,9 @@
 Overview
 ========
 
-Takes a one or two layer 22x17 inch landscape SVG and creates eight (or four) letter-sized tiles that fit neatly onto a 24x18 substrate, such as a sheet of corrugated plastic. The layers must be named "Front" and "Back". Either will do for a single-sided sign.
+Takes a two layer 22x17 inch landscape SVG and creates eight letter-sized tiles that fit neatly onto a 24x18 substrate, such as a sheet of corrugated plastic. The nams of the layers are not relevant, but are always referenced as "front" and "back" on the command line.
+
+support for single-layer SVGs may show up in the future. or not.
 
 obtain tiles
 ============
