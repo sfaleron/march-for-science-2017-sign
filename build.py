@@ -48,17 +48,17 @@ TMPLS = {
       'zip -n .png output/sign.zip output/${name}.pdf output/${name}.png',
    ) ],
 
-   'inner_why_not_this_work' : [ Template(s) for s in (
-      './pdfScale.sh -s 0.9 tmp/tile${i}${j}.pdf tmp/tile${i}${k}.pdf',
-   ) ],
-
    'inner'  : [ Template(s) for s in (
       'pdftk  tmp/tile${i}${j}.pdf rotate 1east output tmp/tile${i}${k}.pdf',
       'pdf2ps tmp/tile${i}${k}.pdf tmp/tile${i}${k}.ps',
       'pstops -p letter "@0.9(0.425in,0.55in)" tmp/tile${i}${k}.ps tmp/tile${i}${m}.ps',
       'ps2pdf tmp/tile${i}${m}.ps tmp/tile${i}${m}.pdf',
       'pdftk  tmp/tile${i}${m}.pdf rotate 1west output tmp/tile${i}${n}.pdf'
-   ) ]
+   ) ],
+
+   'inner_why_not_this_work' : [ Template(s) for s in (
+      './pdfScale.sh -s 0.9 tmp/tile${i}${j}.pdf tmp/tile${i}${k}.pdf',
+   ) ],
 }
 
 def nonsplz(s):

@@ -2,7 +2,7 @@
 Overview
 ========
 
-Takes a two layer 22x17 inch landscape SVG and creates eight letter-sized tiles that fit neatly onto a 24x18 substrate, such as a sheet of corrugated plastic. The nams of the layers are not relevant, but are always referenced as "front" and "back" on the command line.
+Takes a two layer 22x17 inch landscape SVG and creates eight letter-sized tiles that fit neatly onto a 24x18 substrate, such as a sheet of corrugated plastic. The names of the layers are not relevant, but are always referenced as "front" and "back" on the command line.
 
 single sided signs can be done, but it's a little half-baked. use "back" on the command line. defaults are still two-sided. any remaining "front" content will remain (separately) in the output directory and zip file unless manually removed. better support for single-layer SVGs may show up in the future. or not.
 
@@ -11,7 +11,7 @@ obtain tiles
 
 In case you only want the tiles, the latest release, with tiles and previews only can be downloaded from:
 
-https://github.com/sfaleron/marchsign2017/releases/
+https://github.com/sfaleron/marchsign2017/releases/latest
 
 
 tweak/mold to your will and rebuild
@@ -44,3 +44,4 @@ final note
 I intend to make an unnecessarily elaborate mounting system just for kicks, but you can also hold overhead, or it at chest height, flipping every once in a while to expose both sides.
 
 Perhaps not in time for the intended event. It's easily updatable for future uses, though!
+
