@@ -32,6 +32,9 @@ from string import Template
 
 import xml.etree.ElementTree as ET
 
+from __future__ import print_function
+
+
 TMPLS = {
    'outer'  : [ Template(s) if s else None for s in (
       'inkscape -Cj -i $id -y 255 --export-pdf=tmp/${name}1.pdf $svg',
@@ -57,9 +60,6 @@ TMPLS = {
       'pdftk  tmp/tile${i}${m}.pdf rotate 1west output tmp/tile${i}${n}.pdf'
    ) ]
 }
-
-#TMPLS['outer'][1] = Template('mutool poster -x 2 -y 2 tmp/${name}.pdf tmp/tiles.pdf')
-#TMPLS['outer'][1] = Template('pdfposter     -p2x2Let  tmp/${name}.pdf tmp/tiles.pdf')
 
 def nonsplz(s):
    t = ''
@@ -96,22 +96,22 @@ if __name__ == '__main__':
 
    IDs = [ e.attrib['id'] for e in root.iter() if nonsplz(e.tag) == 'g' ]
 
-   layers = dict(zip(('back', 'front'), IDs))
+   layers = dict(list(zip(('back', 'front'), IDs)))
    kwargs = dict(svg=SVG)
 
-   print 'mkdir -p tmp'
+   print('mkdir -p tmp')
 
    for name in sides:
       kwargs['name'] = name
       kwargs[  'id'] = layers[name]
       for tplo in TMPLS['outer']:
          if tplo:
-            print tplo.substitute(**kwargs)
+            print(tplo.substitute(**kwargs))
          else:
             for i,j,k,m,n in zip(
                (1,2,3,4), (1,2,1,1), (2,3,2,2), (3,4,3,3), (4,5,4,4) ):
                for tpli in TMPLS['inner']:
-                  print tpli.substitute(i=i, j=j, k=k, m=m, n=n)
+                  print(tpli.substitute(i=i, j=j, k=k, m=m, n=n))
 
 
-   print 'rm -f tmp/*'
+   print('rm -f tmp/*')

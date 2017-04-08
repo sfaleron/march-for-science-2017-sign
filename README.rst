@@ -4,7 +4,7 @@ Overview
 
 Takes a two layer 22x17 inch landscape SVG and creates eight letter-sized tiles that fit neatly onto a 24x18 substrate, such as a sheet of corrugated plastic. The nams of the layers are not relevant, but are always referenced as "front" and "back" on the command line.
 
-support for single-layer SVGs may show up in the future. or not.
+single sided signs can be done, but it's a little half-baked. use "back" on the command line. defaults are still two-sided. any remaining "front" content will remain (separately) in the output directory and zip file unless manually removed. better support for single-layer SVGs may show up in the future. or not.
 
 obtain tiles
 ============
@@ -17,11 +17,11 @@ https://github.com/sfaleron/marchsign2017/releases/
 tweak/mold to your will and rebuild
 -----------------------------------
 
-update the copyleft statement if you change the text otherwise make significant changes. you can even fork the repository to make it easy to share with others, if that suits you.
+update the copyleft statement (there's a makefile for this, at least) if you change the text or otherwise make significant changes. you can even fork the repository to make it easy to share with others, if that suits you.
 
 This works on Linux, and presumably the various BSDs. I would guess that MacOS and Cygwin also, but that seems less certain.
 
-dependencies (not including dependencies-of-dependencies; I'll let you package manager figure that out): python (v2.7, v3 support pending), inkscape, pdftk, mutool, imagemagick, ghostscript, xpdf/poppler...
+dependencies (not including dependencies-of-dependencies; I'll let you package manager figure that out): python (recent v2 or v3), inkscape, pdftk, mutool, imagemagick, ghostscript, xpdf/poppler...
 
 if I discover that I've missed any, I'll update this list. it is a long list, but they are pretty standard on a desktop installation with document processing tools included, except the more graphics-oriented packages and mutool.
 
