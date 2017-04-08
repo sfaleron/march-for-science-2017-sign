@@ -1,4 +1,6 @@
 
+from __future__ import print_function
+
 ### Copyright 2017 Christopher Fuller
 ###
 ### Licensed under the Apache License, Version 2.0 (the "License");
@@ -31,8 +33,6 @@ import sys
 from string import Template
 
 import xml.etree.ElementTree as ET
-
-from __future__ import print_function
 
 
 TMPLS = {
