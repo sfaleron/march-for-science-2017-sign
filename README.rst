@@ -21,7 +21,7 @@ update the copyleft statement (there's a makefile for this, at least) if you cha
 
 This works on Linux, and presumably the various BSDs. I would guess that MacOS and Cygwin also, but that seems less certain.
 
-dependencies (not including dependencies-of-dependencies; I'll let you package manager figure that out): python (recent v2 or v3), inkscape, pdftk, mutool, imagemagick, ghostscript, xpdf/poppler...
+dependencies (not including dependencies-of-dependencies; I'll let you package manager figure that out): python (recent v2 or v3), inkscape, pdftk, mutool, imagemagick, ghostscript, xpdf/poppler, make...
 
 if I discover that I've missed any, I'll update this list. it is a long list, but they are pretty standard on a desktop installation with document processing tools included, except the more graphics-oriented packages and mutool.
 
