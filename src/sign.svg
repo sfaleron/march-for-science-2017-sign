@@ -49,10 +49,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.24571078"
-     inkscape:cx="577.7955"
-     inkscape:cy="816"
+     inkscape:cx="1056"
+     inkscape:cy="816.00001"
      inkscape:document-units="in"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer10"
      showgrid="false"
      units="in"
      width="50mm"
@@ -96,7 +96,7 @@
      transform="translate(-11.669106,-1857.4178)">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:204.80001831px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:12.80000114"
+       style="font-style:normal;font-weight:normal;font-size:204.80001831px;line-height:100%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:12.80000114"
        x="164.68182"
        y="2165.6387"
        id="text5408"><tspan
@@ -104,17 +104,17 @@
          x="164.68182"
          y="2165.6387"
          id="tspan5412"
-         style="font-size:179.19999695px;stroke-width:12.80000114">It is better to light</tspan><tspan
+         style="font-size:179.19999695px;line-height:100%;stroke-width:12.80000114">It is better to light</tspan><tspan
          sodipodi:role="line"
          x="164.68182"
-         y="2428.2888"
+         y="2370.4387"
          id="tspan5416"
-         style="font-size:179.19999695px;stroke-width:12.80000114">one candle than to</tspan><tspan
+         style="font-size:179.19999695px;line-height:100%;stroke-width:12.80000114">one candle than to</tspan><tspan
          sodipodi:role="line"
          x="164.68182"
-         y="2690.9387"
+         y="2575.2388"
          id="tspan5428"
-         style="font-size:179.19999695px;stroke-width:12.80000114">curse the darkness.</tspan></text>
+         style="font-size:179.19999695px;line-height:100%;stroke-width:12.80000114">curse the darkness.</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:204.80001831px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:12.80000114"
@@ -135,13 +135,24 @@
          style="font-style:oblique;-inkscape-font-specification:'Sans Oblique';stroke-width:12.80000114">Oppose <tspan
    style="font-weight:bold;-inkscape-font-specification:'Sans Bold Oblique';fill:#ff0000;fill-opacity:1;stroke-width:12.80000114"
    id="tspan5965">Apathy!</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:25px;font-family:Sans;-inkscape-font-specification:Sans;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="927.388"
+       y="2690.3135"
+       id="text39"><tspan
+         sodipodi:role="line"
+         id="tspan37"
+         x="927.388"
+         y="2690.3135"
+         style="font-size:64px">-- W. L. Watkinson (1838-1925)</tspan></text>
   </g>
   <g
      inkscape:label="Front"
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-11.669106,-2843.8744)"
-     style="display:inline">
+     style="display:none">
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:204.80001831px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:12.80000114"
